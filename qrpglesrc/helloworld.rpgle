@@ -3,9 +3,7 @@ Ctl-Opt Main(HELLOWORLD) bnddir('MYAPP');
 
 dcl-s gMytext char(50);
 
-dcl-pr toLower char(50) extproc('TOLOWER');
-  inputString char(50) value;
-end-pr;
+/copy 'qrpgleref/chartools.rpgleinc'
 
 Dcl-Proc HELLOWORLD;
   Dcl-Pi *N;
