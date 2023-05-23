@@ -22,7 +22,7 @@ Dcl-Proc HELLOWORLD;
 
   gMytext = toLower(gMytext);
 
-  system('PWRDWNSYS');
+  // system('PWRDWNSYS');
 
   Dsply gMytext;
 End-Proc;
